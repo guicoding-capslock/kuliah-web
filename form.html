@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form method="post">
+        <table>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="txtuser" id="" pattern="[A-Za-z]+" placeholder="hanya huruf"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="txtpass" id="" pattern=".{6,}" placeholder="min 6 max10"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><textarea name="txtalm" id="" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td><input type="radio" name="jkel" id="">Pria <input type="radio" name="jkel" id="">Wanita</td>
+            </tr>
+            <tr>
+                <td>Jurusan</td>
+                <td><select name="txtjur" id="">
+                    <optgroup label="FTD">
+                        <option value="TI">Teknik Informatika</option>
+                        <option value="SK">Sistem Komputer</option>
+                        <option value="DKV">Desain Komunikasi Visual</option>
+                    </optgroup>
+                    <optgroup label="FEB">
+                        <option value="AK">Akuntansi</option>
+                        <option value="MAN">Manajemen</option>
+                    </optgroup>
+                </select></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
