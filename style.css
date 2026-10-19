@@ -1,0 +1,34 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: beige;
+}
+
+* {
+    font-family: 'Poppins';
+}
+
+p {
+    font-size: larger;
+}
+
+.kotak1 {
+    height: 300px;
+    width: 300px;
+    background-color: tomato;
+}
+
+.kotak2 {
+    height: 300px;
+    width: 300px;
+    background-color: purple;
+    color:aliceblue;
+    transition: 1s;
+}
+
+.kotak2:hover {
+    background-color: brown;
+}
+
+.spanbold {
+    font-weight: 900;
+}
